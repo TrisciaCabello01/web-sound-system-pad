@@ -1,5 +1,5 @@
 
-# 🎙️ PulsePad Pro — Live Sound System & Studio Sampler
+# 🎙️ web-sound-system-pad — Live Sound System & Studio Sampler
 
 PulsePad Pro is an ultra-low latency web-based soundboard, live sampler, and mixing console designed specifically for stage gigs, DJs, worship directors, and content creators. It features a high-contrast console layout optimized for dim studio and live club environments.
 
