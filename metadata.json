@@ -1,0 +1,6 @@
+{
+  "name": "PulsePad Pro - Sound System & Studio Sampler",
+  "description": "Professional low-latency sound pad performance system with MIDI mapping, real-time FX, multitrack recording, automated gain staging, and cloud sound sharing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

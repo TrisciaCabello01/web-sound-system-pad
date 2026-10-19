@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #0b0c10;
+    --bg-secondary: #13151b;
+    --bg-card: #191c24;
+    --bg-elevated: #222631;
+    --border-color: #2b303d;
+    --accent-white: #ffffff;
+    --accent-dim: #9aa1b2;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #0b0c10;
+    color: #e2e5ec;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+  code, kbd, samp, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom scrollbars for studio console */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0f1117;
+}
+::-webkit-scrollbar-thumb {
+  background: #282d3b;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3b4256;
+}
+
+/* Hardware accelerated Beating Pad pulse using CSS variable --bpm-interval */
+@keyframes padPulse {
+  0% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+  50% {
+    transform: scale(1.03);
+    filter: brightness(1.35);
+  }
+  100% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+}
+
+/* Apply only when a sequence or loop is actively running */
+.pad-playing-active {
+  animation: padPulse var(--bpm-interval, 0.5s) linear infinite;
+  will-change: transform, filter; /* Forces GPU acceleration */
+}
+
+@keyframes progress {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 65%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+

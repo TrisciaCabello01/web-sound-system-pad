@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="96" fill="#0d0e12"/>
+  <rect x="32" y="32" width="448" height="448" rx="80" fill="#14161d" stroke="#2a2e39" stroke-width="6"/>
+  <!-- 4 Pad Grid Representation -->
+  <rect x="72" y="72" width="164" height="164" rx="24" fill="#1f232d" stroke="#3b82f6" stroke-width="8"/>
+  <rect x="276" y="72" width="164" height="164" rx="24" fill="#1f232d" stroke="#ec4899" stroke-width="8"/>
+  <rect x="72" y="276" width="164" height="164" rx="24" fill="#1f232d" stroke="#10b981" stroke-width="8"/>
+  <rect x="276" y="276" width="164" height="164" rx="24" fill="#1f232d" stroke="#f59e0b" stroke-width="8"/>
+  <!-- Sound Wave / Pulse in center -->
+  <circle cx="256" cy="256" r="54" fill="#0d0e12" stroke="#ffffff" stroke-width="6"/>
+  <path d="M236 256 L246 236 L256 276 L266 242 L276 256" stroke="#00f0ff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
